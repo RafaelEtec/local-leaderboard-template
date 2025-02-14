@@ -1,0 +1,69 @@
+.card {
+    background-color: #f0bc4d;
+    margin: 1.4em;
+    padding: 0.8em 0.8em 0em 0.8em;
+    border-radius: 50px 50px 10px 10px;
+    border-style: solid;
+    border-color: #d89e21;
+    border-width: 0.4em;
+}
+
+.card-img-top {
+    border-radius: 50px 50px 10px 10px;
+    border-style: solid;
+    border-color: #d89e21;
+    border-width: 0.4em;
+
+    width: 18rem;
+    height: 15rem;
+}
+
+.card-title {
+    margin-top: 0.8em;
+    font-family: "Bebas Neue", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 2em;
+    font-style: normal;
+    text-align: center;
+}
+
+.card-text {
+    font-family: "Bebas Neue", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.2em;
+    font-style: normal;
+    text-align: justify;
+}
+
+.list-group-item {
+    font-family: "Bebas Neue", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 1.2em;
+    font-style: normal;
+    text-align: justify;
+
+    background-color: #d89e21;
+    border-color: #f0bc4d;
+    border-width: 0.2em;
+}
+
+.first {
+    background-color: #d89e21;
+    font-family: "Bebas Neue", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 0.8em;
+    font-style: normal;
+}
+
+.others {
+    background-color: #d89e21;
+    font-family: "Bebas Neue", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 0.8em;
+    font-style: normal;
+}

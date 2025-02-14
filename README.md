@@ -1,5 +1,10 @@
+HTML Visualization of the actual project
+No backdend whatsoever
+
 Color palette
-https://paletadecores.com/paleta/f3d915/e9e4bb/bfd4b7/a89907/1a1c27/
+#1a1c27
+#d89e21
+#f0bc4d
 
 Sidebar nav
 https://codepen.io/djdabe/pen/qXgJNV

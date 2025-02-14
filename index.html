@@ -11,6 +11,8 @@
     <!-- css -->
     <link rel="stylesheet" href="css/css_reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/amigos.css">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -33,7 +35,6 @@
 </head>
 <body>
     <div id="wrapper">
-        <div class="overlay"></div>
 
         <!-- sidebar-nav -->
         <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
@@ -45,11 +46,11 @@
                     </div>
                 </div>
                 
-                <li><a href="#home">Menu</a></li>
-                <li><a href="#about">Perfil</a></li>
-                <li><a href="#events">Amigos</a></li>
-                <li><a href="#team">Grupos</a></li>
-                <li><a href="#followme">Sobre o Projeto</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#jogos">Jogos</a></li>
+                <li><a href="#amigos">Amigos</a></li>
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#aboutproject">Sobre o Projeto</a></li>
             </ul>
         </nav>
         <!-- /sidebar-nav -->
@@ -61,61 +62,120 @@
                 <span class="hamb-middle"></span>
                 <span class="hamb-bottom"></span>
             </button>
+            <!-- content -->
             <div class="container">
+                <!-- cards -->
                 <div class="row">
-                        <!-- content -->
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/imgs/crown.png" class="card-img-top" alt="">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/imgs/uno.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title">Uno</h5>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥇 Rafael G.
+                                    <span class="badge first text-bg-warning rounded-pill">250</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥈 Jolie
+                                    <span class="badge others text-bg-secondary rounded-pill">200</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥉 Kauê
+                                    <span class="badge others text-bg-secondary rounded-pill">80</span>
+                                </li>
+                                </ul>
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/imgs/crown.png" class="card-img-top" alt="">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/imgs/domino.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title">Dominó</h5>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥇 Rafael G.
+                                    <span class="badge first text-bg-warning rounded-pill">250</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥈 Jolie
+                                    <span class="badge others text-bg-secondary rounded-pill">200</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥉 Kauê
+                                    <span class="badge others text-bg-secondary rounded-pill">80</span>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/imgs/crown.png" class="card-img-top" alt="">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/imgs/pife.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title">Pife</h5>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥇 Rafael G.
+                                    <span class="badge first text-bg-warning rounded-pill">250</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥈 Jolie
+                                    <span class="badge others text-bg-secondary rounded-pill">200</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥉 Kauê
+                                    <span class="badge others text-bg-secondary rounded-pill">80</span>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/imgs/crown.png" class="card-img-top" alt="">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/imgs/monopoly.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title">monopoly</h5>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥇 Rafael G.
+                                    <span class="badge first text-bg-warning rounded-pill">250</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥈 Jolie
+                                    <span class="badge others text-bg-secondary rounded-pill">200</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    🥉 Kauê
+                                    <span class="badge others text-bg-secondary rounded-pill">80</span>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/imgs/crown.png" class="card-img-top" alt="">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/imgs/crown.png" class="card-img-top" alt="">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/imgs/crown.png" class="card-img-top" alt="">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/imgs/crown.png" class="card-img-top" alt="">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-
-                        <!-- /content -->
+                    </div>
                 </div>
+                <!-- /cards -->
+
+                <!-- amigos -->
+                <ol class="amigos list-group list-group-numbered position-absolute top-0 end-0">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                        <div class="fw-bold">Subheading</div>
+                        Content for list item
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                        <div class="fw-bold">Subheading</div>
+                        Content for list item
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                        <div class="fw-bold">Subheading</div>
+                        Content for list item
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                </ol>
+                <!-- /amigos -->
             </div>
+            <!-- /content -->
         </div>
         <!-- /page-content-wrapper -->
     </div>

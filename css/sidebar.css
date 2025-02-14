@@ -9,7 +9,6 @@ html { height: 100%;}
 /*-------------------------------*/
 
 #wrapper {
-    padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -110,15 +109,6 @@ html { height: 100%;}
 .sidebar-nav li:nth-child(5n+5):before {
   background-color: #f0bc4d;
 }
-.sidebar-nav li:nth-child(5n+6):before {
-  background-color: #d89e21;
-}
-.sidebar-nav li:nth-child(5n+7):before {
-  background-color: #f0bc4d;
-}
-.sidebar-nav li:nth-child(5n+8):before {
-  background-color: #d89e21;
-}
 
 .sidebar-nav li:hover:before,
 .sidebar-nav li.open:hover:before {
@@ -211,48 +201,22 @@ html { height: 100%;}
     padding-right: 5px;
     font-size: 1.4em;
 }
-a[href*="#home"]::before {
+a[href*="#menu"]::before {
   content: "\f015" !important;
 }
-a[href*="#about"]::before {
-  content: "\f129" !important;
+a[href*="#jogos"]::before {
+  content: "\f11b" !important;
 }
-a[href*="#events"]::before {
-  content: "\f073" !important;
-}
-a[href*="#events"]::before {
-  content: "\f073" !important;
-}
-a[href*="#team"]::before {
+a[href*="#amigos"]::before {
   content: "\f0c0" !important;
 }
-a[href*="#works"]::before {
-  content: "\f0b1" !important;
+a[href*="#perfil"]::before {
+  content: "\f007" !important;
 }
-a[href*="#pictures"]::before {
-  content: "\f03e" !important;
-}
-a[href*="#videos"]::before {
-  content: "\f03d" !important;
-}
-a[href*="#books"]::before {
-  content: "\f02d" !important;
-}
-a[href*="#art"]::before {
-  content: "\f1fc" !important;
-}
-a[href*="#awards"]::before {
-  content: "\f02e" !important;
-}
-a[href*="#services"]::before {
-  content: "\f013" !important;
-}
-a[href*="#contact"]::before {
-  content: "\f086" !important;
-}
-a[href*="#followme"]::before {
+a[href*="#aboutproject"]::before {
   content: "\f09b" !important;
 }
+
 /*-------------------------------*/
 /*       Hamburger-Cross         */
 /*-------------------------------*/
@@ -370,16 +334,3 @@ a[href*="#followme"]::before {
 /*-------------------------------*/
 /*            Overlay            */
 /*-------------------------------*/
-
-.overlay {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: transparent;
-    z-index: 1;
-}
