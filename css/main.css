@@ -1,3 +1,9 @@
 body {
     background-color: #1a1c27;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.card {
+    background-color: red;
 }
