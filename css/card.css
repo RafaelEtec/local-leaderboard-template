@@ -67,3 +67,14 @@
     font-size: 0.8em;
     font-style: normal;
 }
+
+/* card modal */
+.modal-content {
+    background-color: #1a1c27;
+    border-color: #d89e21;
+    border-width: 0.4em;
+}
+
+.btn-close {
+    background-color: #ffbc2b;
+}
